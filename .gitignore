@@ -1,0 +1,16 @@
+.env
+composer.phar
+*~
+*.DS_Store
+._*
+.~lock.*
+logs
+*.log
+npm-debug.log*
+Thumbs.db
+vendor
+node_modules
+public/bower_components
+.fuse_hidden*
+*.sublime-workspace
+*.sublime-project

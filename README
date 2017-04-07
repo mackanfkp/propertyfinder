@@ -1,0 +1,11 @@
+INSTALL
+=========
+1. Do run: composer install
+2. To run tests: ./phpunit
+3. To run script: php index.php
+
+Information
+===========
+- To add a new type of tranportation, add a class that extends Vehicle. Just like the Train/Bus/Plane classes.
+
+- Need more info, just give me a shout, so I can explain why I did things in a certain way - or why I did not.
