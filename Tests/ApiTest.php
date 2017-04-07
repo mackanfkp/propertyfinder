@@ -11,30 +11,12 @@ use PropertyFinder\Api;
 
 class ApiTest extends TestCase
 {
-
-    public function testDummy()
-    {
-        $this->assertTrue(true);
-    }
-
     /**
      * @dataProvider boardingCardProvider
      */
     public function testIsArrayOfFour(... $boardingCardsArray)
     {
         $this->assertCount(4, $boardingCardsArray);
-    }
-
-    /**
-     * @dataProvider boardingCardProvider
-     */
-    public function testSortedString(... $boardingCardsArray)
-    {
-        $api = new Api;
-
-        $stirng = $api->getSortedBoardingCardsItinerary($boardingCardsArray);
-
-        $this->assertTrue(true);
     }
 
     /**
